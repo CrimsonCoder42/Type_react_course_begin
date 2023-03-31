@@ -1,16 +1,10 @@
 "use strict";
-let myName;
-let meaningOfLife;
-let isLoading;
-let album;
-myName = 'John';
-meaningOfLife = 42;
-isLoading = true;
-album = 5150;
-const sum = (a, b) => {
-    return a + b;
-};
-let postID; // union type
-let isActive;
-let re = /\w+/g;
-console.log("got it");
+let stringArr = ['one', 'hey', 'Dave'];
+let guitars = ['Start', 'les Paul', 5150];
+let mixedData = ['EVH', 1984, true];
+stringArr[0] = 'John';
+stringArr.push('Doe');
+guitars[0] = 1984;
+guitars.unshift('Jim');
+guitars = stringArr; // Works only if the types are the same.
+let test = [];
