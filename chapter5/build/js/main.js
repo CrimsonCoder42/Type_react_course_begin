@@ -17,3 +17,4 @@ let nextVal = addOrConcat(1, 2, 'concat');
 // (10 as unknown) as string
 const img = document.querySelector('img');
 const myImg = document.getElementById('#img');
+const nextImg = document.getElementById('#img');

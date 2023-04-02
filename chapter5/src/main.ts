@@ -30,7 +30,8 @@ let nextVal: number = addOrConcat(1, 2, 'concat') as number
 
 
 const img = document.querySelector('img') as HTMLImageElement
-const myImg = document.getElementById('#img')
+const myImg = document.getElementById('#img') as HTMLImageElement
+const nextImg = <HTMLImageElement>document.getElementById('#img')
 
 
 
